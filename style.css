@@ -82,11 +82,8 @@ section {
 }
 
 .navbar a:hover {
-    color: var(--yellow);
+    color: var(--light-color);
 }
-
-
-
 
 
 .header .btn {
