@@ -222,7 +222,7 @@ section {
 
     .navbar {
         background-color: var(--yellow);
-        height: 34rem;
+        height: 40rem;
         width: 20rem;
         position: absolute;
         top: 15px;
@@ -888,7 +888,7 @@ section {
   
   .con  {
     display: flex;
-    flwx-wrap: wrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
