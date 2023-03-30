@@ -1022,13 +1022,13 @@ a {
         width: 50%;
         margin: auto;
         padding: 0 3px;
-        margin-top: 6px;
+        margin-top: 1px;
       }
 
       .Pop span {
         color: var(--black);
-        font-size: 60px;
-        margin-top: 13rem;
+        font-size: 55px;
+        margin-top: 12rem;
         margin-bottom: 1rem;
         cursor: pointer;
     }
