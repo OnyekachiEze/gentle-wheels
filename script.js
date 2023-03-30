@@ -1,19 +1,3 @@
-// let menu = document.querySelector('#menu-btn');
-// let navbar = document.querySelector('.navbar');
-
-// menu.onclick = () => {
-//     menu.classList.toggle('far-times');
-//     navbar.classList.toggle('active');
-// }
-
-// document.querySelector('#login-btn').onclick = () => {
-//     document.querySelector('.login-form-container').classList.toggle('active');
-// }
-
-// document.querySelector('#lclose-login-form').onclick = () => {
-//     document.querySelector('.login-form-container').classList.remove('active');
-// }
-
 
 let slidE = document.querySelector('.navbar');
  function toggle1(){
@@ -21,45 +5,16 @@ let slidE = document.querySelector('.navbar');
  }
 
 
-// window.onscroll = () => {
-
-//     if (window.scrollY > 0) {
-//         document.querySelector(.header).classList.add('active');
-//     } else {
-//         document.querySelector(.header).classList.remove('active');
-//     }
-//     menu.classList.remove('fa-times');
-//     navbar.classList.remove('active');
-// }
+ function popout(){
+  document.getElementById('Popin').style.display = 'block';
+ }
 
 
-// window.onload = () => {
+ function popin(){
+  document.getElementById('Popin').style.display = 'none';
+ }
 
-//     if (window.scrollY > 0) {
-//         document.querySelector(.header).classList.add('active');
-//     }
-//     else {
-//         document.querySelector(.header).classList.remove('active');
-//     }
-
-// }
-
-// document.querySelector('.home').onmousemove = (e) =>{
-
-//     document.querySelectorALL('.home-parallax').forEach(elm => {
-
-//         let speed = elm.getAttribute('data-speed');
-
-//         let x = (window.innerWidth - e.pageX * speed) / 90;
-//         let y = (window.innerHeight - e.pageY * speed) / 90;
-
-//         elm.style.transform = 'translateX(${y}px) translateY(${x}px)';
-
-
-//     });
-// };
-
-
+ 
 var slideIndex = 1;
 showSlides(slideIndex);
 
