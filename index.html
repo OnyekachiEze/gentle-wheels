@@ -23,28 +23,47 @@
 
   <div class="Pop" id="Popin">
     <span class="fa fa-times" onclick="popin()"></span>
-    <div class="contact-form">
-      <form action="" id="contact-form">
-        <h2>Send Message</h2>
-        <div class="input-box">
-          <input type="text" required="true" name="">
-          <span>Full Name</span>
-        </div>
-
-        <div class="input-box">
-          <input type="email" required="true" name="">
-          <span>Email</span>
-        </div>
-
-        <div class="input-box">
-          <textarea required="true" name=""></textarea>
-          <span>Type your Message...</span>
-        </div>
-
-        <div class="input-box">
-          <input type="submit" value="Send" name="">
+    <div class="container">
+      <form action="https://www.w3schools.com/action_page.php">
+        <div class="row">
+          <h2 style="text-align:center">Login with Social Media or Manually</h2>
+          
+          <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fab fa-facebook"></i> Login with Facebook
+             </a>
+            <a href="#" class="twitter btn">
+              <i class="fab fa-twitter"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn"><i class="fab fa-google">
+              </i> Login with Google+
+            </a>
+          </div>
+    
+          <div class="col">
+            <div class="hide-md-lg">
+              <p>Or sign in manually:</p>
+            </div>
+    
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+          </div>
+          
         </div>
       </form>
+    </div>
+    
+    <div class="bottom-container">
+      <div class="row">
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Sign up</a>
+        </div>
+        <div class="col">
+          <a href="#" style="color:white" class="btn">Forgot password?</a>
+        </div>
+      </div>
+    </div>
     </div>
 
   </div>
