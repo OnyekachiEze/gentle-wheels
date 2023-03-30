@@ -349,7 +349,7 @@ section {
 }
 
 /* Six columns side by side */
-.columnn {
+.column2 {
     float: left;
     width: 16.66%;
 }
@@ -422,31 +422,31 @@ section {
 }
 
 /* Remove extra left and right margins, due to padding */
-.raw {
+.row2 {
     margin: 0 -5px;
 }
 
 /* Clear floats after the columns */
-.raw:after {
+.row2:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.raw h2 {
+.row2 h2 {
     font-size: 32px;
     color: var(--black);
 }
 
-.raw h3 {
+.row2 h3 {
     font-size: 22px;
 }
 
-.raw p {
+.row2 p {
     font-size: 12px;
 }
 
-.raw button {
+.row2 button {
     padding: 12px;
     color: var(--black);
     background-color: var(--yellow);
