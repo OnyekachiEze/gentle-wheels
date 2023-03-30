@@ -1033,4 +1033,10 @@ a {
         cursor: pointer;
     }
 
+    .home h1 {
+        font-size: 7.5vw;
+        text-transform: uppercase;
+        color: var(--black);
+        margin-top: 1rem;
+    }
 }
