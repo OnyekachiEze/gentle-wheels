@@ -41,8 +41,6 @@ section {
     width: 100%;
     z-index: 200;
     display: none;
-
-
 }
 
 .Pop span {
@@ -926,7 +924,7 @@ a {
   
   /* style inputs and link buttons */
   input,
-  .btn {
+  .btm {
     width: 100%;
     padding: 12px;
     border: none;
@@ -997,14 +995,17 @@ a {
   /* bottom container */
   .bottom-container {
     text-align: center;
-    background-color: #666;
+    background-color:var(--box-shadow);
     border-radius: 0px 0px 4px 4px;
   }
   
   /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 650px) {
+    .container {
+        width: 90%;
+    }
     .col {
-      width: 100%;
+      width: 10%;
       margin-top: 0;
     }
     /* hide the vertical line */
@@ -1015,6 +1016,7 @@ a {
     .hide-md-lg {
       display: block;
       text-align: center;
+      font-size: 10px;
     }
 
     .col {
@@ -1023,6 +1025,8 @@ a {
         margin: auto;
         padding: 0 3px;
         margin-top: 1px;
+        position: relative;
+        left: 5px;
       }
 
       .Pop span {
@@ -1033,6 +1037,30 @@ a {
         cursor: pointer;
     }
 
+    .fb {
+        font-size: 14px;
+        font-weight: bolder;
+      }
+      
+      .twitter {
+        font-size: 14px;
+        font-weight: bolder;
+      }
+      
+      .google {
+        font-size: 14px;
+        font-weight: bolder;
+      }
+
+      .red {
+        width: 90%;
+        border: 1px solid var(--yellow);
+      }
+
+      input[type=submit] {
+        width: 90%;
+        background-color: var(--black);
+      }
     .home h1 {
         font-size: 7.5vw;
         text-transform: uppercase;
